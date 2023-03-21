@@ -9,7 +9,7 @@ rule sleep:
     output:
         touch("{sample}.sleep")
     shell:
-        "sleep 30"
+        "sleep 5"
 
 
 rule touch:
